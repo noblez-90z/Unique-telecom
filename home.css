@@ -256,9 +256,15 @@ table{
 @media screen and (max-width:375px) {
     .main-screen{
         /* border: 1px solid green; */
+        width: 373px;
+        padding: 10px;
         margin-top: 30px;
+        margin-left: 0;
     }
-    
+    .screen-top img{
+        width: 50px;
+        height: 50px;
+    }
     .nav-sidebar{
         display: none;
         position: fixed;

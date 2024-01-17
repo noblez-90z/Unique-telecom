@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./loginstyles.css">
+    <title>Unique Telecom:login</title>
+</head>
+<body>
+    <div class="hero">
+        <div class="form-wrapper">
+            <div class="form-text">
+                <h2>login</h2>
+                <p>enjoy things that u love</p>
+            </div>
+            <form action="./home.html" onsubmit="return validate()">
+                <div class="input-feild">
+                    <label for="email">email</label><br>
+                    <input type="email" name="" id="email">
+                </div>
+                <div class="input-feild password">
+                    <label for="password">password</label><br>
+                    <input type="password" name="" id="password">
+                    <span id="icon" onclick="show()">
+                    <!-- <img src="./image/visibility_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+                    </span>
+                </div>
+                <span class="fpass">forgot password?</span>
+                <div class="input-feild">
+                <button>sign in</button>
+                </div>
+            </form>
+            <div class="create">
+                <p>Don't have an account?</p>
+                <a href="./registration.html">
+                    <button>create account</button>
+                </a>
+            </div>
+            <p class="end-note">
+                By continuing you accept our standard terms and conditions and our privacy policy.
+            </p>
+            <span class="footer">activate account here</span>
+        </div>
+        <div class="error-message">
+            <div class="error-wrapper">
+                <span>email is required</span>
+                <button>ok</button>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>

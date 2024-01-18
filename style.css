@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header{
     /* height: 100vh; */
     display: flex;
@@ -423,8 +424,9 @@ h4{
 
 
 @media screen and (max-width:375px){
+    
     .upcheck{
-        /* border: 2px solid brown; */
+        /* border: 2px solid rgb(240, 13, 183); */
         display: flex;
         justify-content: space-between;
         /* align-items: center; */

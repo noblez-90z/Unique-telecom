@@ -171,10 +171,16 @@ form button{
     
 }
 @media screen and (max-width:375px) {
+    
     .section{
-        padding: 20px;
+        /* border: 2px solid blueviolet; */
+        width: 370px;
+        /* padding: 5px; */
+    }
+    .form-wrapper{
+        width: 350px;
     }
     .error-wrapper{
-        left: 150px;
+        left:95px;
     }
 }
